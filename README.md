@@ -24,16 +24,26 @@ docker compose up -d
 After the application starts, open:
 
 Swagger UI → http://localhost:8080/swagger-ui.html
-
 📌 Project Structure Overview
-Package	Description
-controller	Handles incoming HTTP requests
-service	Business logic layer
-repository	Data access layer to MongoDB
-documents	MongoDB document models
-dto	Data transfer objects
+
+**Package**  
+controller  
+Handles incoming HTTP requests
+
+service  
+Business logic layer
+
+repository  
+Data access layer to MongoDB
+
+documents  
+MongoDB document models
+
+dto  
+Data transfer objects
 
 The codebase includes Javadoc and Swagger annotations where necessary to clarify API behavior.
+
 
 🧪 Testing
 
